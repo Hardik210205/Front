@@ -39,7 +39,7 @@ function Register() {
     //   username, email,password
     // });
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/register',{
+      const response = await axios.post('registerRoute',{
            username, email,password
     });
     if (response===false){

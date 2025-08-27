@@ -39,7 +39,7 @@ function Login() {
       //   username, email,password
       // });
       try {
-        const response = await axios.post('http://localhost:5000/api/auth/login', {
+        const response = await axios.post('loginRoute', {
           username, password
         });
         if (response === false) {
