@@ -1,4 +1,4 @@
-export const host = "https://backend-flame-xi-63.vercel.app/";
+export const host = "https://backend-1-71rl.onrender.com";
 export const registerRoute = `${host}/api/auth/register`;
 export const loginRoute = `${host}/api/auth/login`;
 export const SetAvatarRoute = `${host}/api/auth/SetAvatar`;
