@@ -1,4 +1,4 @@
-export const host = "https://back-zyl7.onrender.com";
+export const host = "https://back-1-zguy.onrender.com";
 export const registerRoute = `${host}/api/auth/register`;
 export const loginRoute = `${host}/api/auth/login`;
 export const SetAvatarRoute = `${host}/api/auth/SetAvatar`;
